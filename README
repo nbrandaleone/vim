@@ -1,0 +1,16 @@
+cd ~/.vim/bundle/
+git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
+git clone git://github.com/altercation/vim-colors-solarized.git
+git clone https://github.com/scrooloose/nerdtree.git
+git clone git://github.com/tpope/vim-fireplace.git
+git clone git://github.com/tpope/vim-sensible.git
+git clone git://github.com/tpope/vim-fugitive.git
+
+# generate helptags
+:Helptags
+
+# You need the nice Powerline fonts
+git clone git@github.com:powerline/fonts.git
+cd fontd
+./install.sh

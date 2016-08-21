@@ -9,6 +9,7 @@ colorscheme solarized           " Use solarized color scheme
 filetype plugin indent on       " Turn on file type detections
 let g:rainbow_active = 1        " 0 if you want to enable it later via :RainbowToggle
 let g:airline_powerline_fonts=1 " Install powerline fonts
+" let g:airline_theme='solarized'
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 set wrap                        " Turn on line wrapping
@@ -21,7 +22,7 @@ set ignorecase                  " Case-insensitive searching
 " "set shiftwidth=2                 " And again, related.
 " "set expandtab                    " Use spaces instead of tabs
 "
-" set laststatus=2                  " Show the status line all the time
+set laststatus=2                  " Show the status line all the time
 " " Useful status information at bottom of screen
 " set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\
 " %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\
